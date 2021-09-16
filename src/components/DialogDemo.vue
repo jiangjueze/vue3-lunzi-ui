@@ -1,5 +1,5 @@
 <template>
     <div>
-        Frank 2
+       <p>dialog示例</p>
     </div>
 </template>
