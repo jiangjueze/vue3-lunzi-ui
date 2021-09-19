@@ -30,8 +30,8 @@ export default {
         background: #bfbfbf;
         border-radius: $h/2;
         position: relative;
-    }
-    > span{
+
+        > span{
         position: absolute;
         top: 2px;
         left: 2px;
@@ -41,6 +41,8 @@ export default {
         border-radius: $h2 / 2;
         transition: all 250ms;
     }
+    }
+    
 
     .gulu-Switch.gulu-checked {
         background: #1890ff;
