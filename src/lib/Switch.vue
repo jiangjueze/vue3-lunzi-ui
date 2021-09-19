@@ -31,7 +31,7 @@ export default {
         border-radius: $h/2;
         position: relative;
     }
-    span{
+    > span{
         position: absolute;
         top: 2px;
         left: 2px;
