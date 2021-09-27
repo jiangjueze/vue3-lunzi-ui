@@ -27,10 +27,12 @@ export default {
         content: '你好',
         ok() {
           console.log('ok')
+          // return false
         },
         cancel() {
           console.log('cancel')
-        }
+        },
+        closeOnClickOverlay:false
       })
     }
     return {
